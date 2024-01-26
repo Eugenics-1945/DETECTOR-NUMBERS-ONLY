@@ -15,8 +15,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(max_num_hands=2,static_image_mode=True, min_detection_confidence=0.3)
 
-labels_dict = {0: '1', 1: '2', 2: '3', 3:'4', 4: '5', 5: '6',6: '7', 7:'8', 8: '9', 9: 'K', 10: 'L', 11: 'M',12:'N',13:'O'
-               , 14: 'P', 15: 'Q', 16:'R',17:'S',18:'T',19:'U',20: 'V',21: 'W', 22: 'X', 23:'Y'}
+labels_dict = {0: '1', 1: '2', 2: '3', 3:'4', 4: '5', 5: '6',6: '7', 7:'8', 8: '9',}
             
 while True:
 
